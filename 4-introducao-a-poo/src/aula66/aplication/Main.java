@@ -10,7 +10,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Product product = new Product();
 
-        System.out.println("ENTER PRODUCT DATA: ");
+        System.out.println("\033[35mENTER PRODUCT DATA: \033[m");
         System.out.print("Name: ");
         product.name = input.nextLine();
         System.out.print("Price: $");
@@ -18,7 +18,8 @@ public class Main {
         System.out.print("Quantity in stock: ");
         product.quantity = input.nextInt();
 
-        System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+        System.out.println("\033[35mPRODUCT DATA: \033[m");
+        System.out.println(product);
 
         input.close();
     }
