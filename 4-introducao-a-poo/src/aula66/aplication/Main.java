@@ -18,7 +18,26 @@ public class Main {
         System.out.print("Quantity in stock: ");
         product.quantity = input.nextInt();
 
+        System.out.println();
         System.out.println("\033[35mPRODUCT DATA: \033[m");
+        System.out.println(product);
+
+        System.out.println();
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantity = input.nextInt();
+        product.addProducts(quantity);
+        System.out.println();
+
+        System.out.println("\033[35mUPDATED DATA: \033[m");
+        System.out.println(product);
+        System.out.println();
+
+        System.out.print("Enter the number of products ro be removed from stock: ");
+        quantity = input.nextInt();
+        product.removeProducts(quantity);
+        System.out.println();
+
+        System.out.println("\033[35mUPDATED DATA: \033[m");
         System.out.println(product);
 
         input.close();
