@@ -20,8 +20,7 @@ public class Main {
         x.ladoB = input.nextDouble();
         System.out.print("c = ");
         x.ladoC = input.nextDouble();
-        double pX = (x.ladoA + x.ladoB + x.ladoC) / 2;
-        double areaX = Math.sqrt(pX * (pX - x.ladoA) * (pX - x.ladoB) * (pX - x.ladoC));
+        double areaX = x.area();
 
         System.out.println("Digite as medidas do Triângulo Y");
         System.out.print("a = ");
@@ -30,8 +29,7 @@ public class Main {
         y.ladoB = input.nextDouble();
         System.out.print("c = ");
         y.ladoC = input.nextDouble();
-        double pY = (y.ladoA + y.ladoB + y.ladoC) / 2;
-        double areaY = Math.sqrt(pY * (pY - y.ladoA) * (pY - y.ladoB) * (pY - y.ladoC));
+        double areaY = y.area();
 
         if (areaX > areaY) {
             large = "X";
