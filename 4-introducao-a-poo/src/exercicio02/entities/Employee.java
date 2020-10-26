@@ -1,4 +1,4 @@
-package exercicio2.entities;
+package exercicio02.entities;
 
 public class Employee {
 

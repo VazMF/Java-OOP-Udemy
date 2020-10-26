@@ -1,6 +1,6 @@
-package exercicio2.aplication;
+package exercicio02.aplication;
 
-import exercicio2.entities.Employee;
+import exercicio02.entities.Employee;
 import java.util.Locale;
 import java.util.Scanner;
 
