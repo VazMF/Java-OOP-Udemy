@@ -28,7 +28,6 @@ public class Main {
         student.grade3 = input.nextDouble();
         System.out.println();
 
-
         System.out.printf("FINAL GRADE: %.2f\n", student.finalGrade());
         if (student.finalGrade() > 60) {
             System.out.println("\033[32mPASS\033[m");
