@@ -15,7 +15,6 @@ public class Main {
         System.out.print("Price: ");
         double price = sc.nextDouble();
         System.out.println();
-
         Product product = new Product(name, price);
 
         System.out.println("Product data: " + product);
