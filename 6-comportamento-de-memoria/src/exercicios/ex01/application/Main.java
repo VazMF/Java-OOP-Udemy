@@ -22,7 +22,7 @@ public class Main {
             int id = input.nextInt();
 
             while (hasId(list, id)) {
-                System.out.print("Id arlready taken. Try again: ");
+                System.out.print("Id already taken. Try again: ");
                 id = input.nextInt();
             }
 
