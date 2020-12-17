@@ -20,7 +20,7 @@ public class Program {
         Date date3 = new Date(0L);
         Date date4 = new Date(1000L * 60L * 60L * 5L);
         Date date5 = Date.from(Instant.parse("2020-06-25T15:42:07Z"));
-        
+
         System.out.println("--------------------------------");
         System.out.println(date1);
         System.out.println(date2);
