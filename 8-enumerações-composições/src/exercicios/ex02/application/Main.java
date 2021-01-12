@@ -13,7 +13,7 @@ public class Main {
         Comment comment2 = new Comment("Wow that's awesome!");
 
         Post post1 = new Post(sdf.parse("21/06/2018 13:05:44"),
-                "Traveling to New Zeland",
+                "Traveling to New Zealand",
                 "I'm going to visit this wonderful country!",
                 12);
 
