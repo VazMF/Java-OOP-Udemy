@@ -1,8 +1,6 @@
-package application;
+package aula125.application;
 
-import entities.Account;
-import entities.BusinessAccount;
-
+import aula125.entities.*;
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +9,6 @@ public class Main {
 
         Account account = new Account();
         BusinessAccount businessAccount = new BusinessAccount();
-
 
         input.close();
     }
