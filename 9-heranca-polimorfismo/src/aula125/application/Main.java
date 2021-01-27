@@ -35,6 +35,11 @@ public class Main {
             System.out.println("Update!");
         }
 
+        // Sobreposição
+
+        Account account5 = new BusinessAccount(1005, "Bob", 1000.0, 500.0);
+        account5.withdraw(200.0);
+        System.out.println(account5.getBalance());
 
         input.close();
     }
