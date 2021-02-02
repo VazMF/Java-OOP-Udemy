@@ -1,6 +1,6 @@
-package exercicies.ex01.application;
+package exercises.ex01.application;
 
-import exercicies.ex01.entities.*;
+import exercises.ex01.entities.*;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package exercicies.ex01.entities;
+package exercises.ex01.entities;
 
 public class Employee {
 
