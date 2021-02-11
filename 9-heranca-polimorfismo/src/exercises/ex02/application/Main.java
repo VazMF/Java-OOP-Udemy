@@ -33,7 +33,7 @@ public class Main {
             if (type == 'c') {
                 list.add(new Product(name, price));
             } else if (type == 'i') {
-                System.out.print("Customs fee: ");
+                System.out.print("Customs fee: $");
                 double customsFee = input.nextDouble();
                 list.add(new ImportedProduct(name, price, customsFee));
             } else if (type == 'u') {
